@@ -39,7 +39,7 @@
                 stroke:           '@', // Color/appearance of stroke.
                 counterClockwise: '@', // Boolean value indicating
                 complete:         '&', // Expression evaluating to float [0.0, 1.0]
-                background:       '@'  // Color of the background ring. Defaults to null.
+                background:       '@', // Color of the background ring. Defaults to null.
                 offset:           '&'
             },
             compile: function (element, attr) {
